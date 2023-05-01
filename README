@@ -8,42 +8,7 @@ Running instructions:
 
 The main method is the entry point of this program and is located under Calculator.java.
 
--First, compile the source code via javac *.java
--Second, run th calculator via java Calculator
-
--- The calculator will launch and you can start using it.
-
-Usage:
-
-The calculator supports addition, subtraction, multiplication, division, squaring, and square-rooting 
-of positive and negative double values. Only one operator can be used during a single equation input,
-and will toggle between operators when selecting a new one.
-
-Button description / usage examples
-
-Numerical buttons: 0-9 These buttons will append there value to the equation text box.
-
-Period button: . This button appends its value to the equation text box.
-
-Equal button: = This button performs calculations on the equation text box, and will return
-an error or the result of the inputed equation. The equation must include an operator and 
-the required number of operands (1 or 2). Additionally, the equation must be valid.
-
-Clear button C This button clears the equation text box.
-
-Delete button D This button deletes the last appended operator, operand digit, or neg sign.
-
-Operator buttons + - * / M+ M- (Squared) (Square-Root) These buttons append the operator to the 
-equal text box, or replace the current operator. Squared and Square-Root should be used after
-a single operand to be valid. M+ and M- only work when a single operand is appended after them.
-Additionally, they do not work with neg_ proceeding them (results in error).
-
-M-Recall button M-Recall This button appends the value shown in the output text box to the equation
-text box (saved value).
-
-M-Clear button M-Clear This button resets the output value (saved value) to 0.0.
-
-Negative button neg_ This button is used in front of inputed operand to make it negative.
+To run CalculatorTests, JUnit 5 will need to be added to the project
 
 Credits:
 
